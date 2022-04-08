@@ -17,10 +17,10 @@ custom_file_path:
 # ====================== Scheme Settings ====================== #
 # ============================================================= #
 
-#scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-scheme: Gemini
+# scheme: Muse
+scheme: Mist
+# scheme: Pisces
+# scheme: Gemini
 
 darkmode: true
 
@@ -42,59 +42,62 @@ creative_commons:
 menu:
   home: / || fa fa-bell
 
-  Docs:
-    default: /docs/ || fa fa-book
+  # Docs:
+  #   default: /docs/ || fa fa-book
 
-    Getting Started:
-      default: /getting-started/ || fa fa-flag
-      Installation: /installation.html || fa fa-download
-      Deployment: /deployment.html || fa fa-upload
-      Configuration: /configuration.html || fa fa-wrench
-      Upgrade: /upgrade.html || fa fa-history
+  #   Getting Started:
+  #     default: /getting-started/ || fa fa-flag
+  #     Installation: /installation.html || fa fa-download
+  #     Deployment: /deployment.html || fa fa-upload
+  #     Configuration: /configuration.html || fa fa-wrench
+  #     Upgrade: /upgrade.html || fa fa-history
 
-    Theme Settings:
-      default: /theme-settings/ || fa fa-star
-      Sidebar: /sidebar.html || fa fa-bars
-      Footer: /footer.html || fa fa-sticky-note
-      Posts: /posts.html || fa fa-paragraph
-      Custom Pages: /custom-pages.html || fa fa-swatchbook
-      Miscellaneous: /miscellaneous.html || fa fa-university
-      SEO: /seo.html || fa fa-external-link-square-alt
-      i18n: /internationalization.html || fa fa-language
+  #   Theme Settings:
+  #     default: /theme-settings/ || fa fa-star
+  #     Sidebar: /sidebar.html || fa fa-bars
+  #     Footer: /footer.html || fa fa-sticky-note
+  #     Posts: /posts.html || fa fa-paragraph
+  #     Custom Pages: /custom-pages.html || fa fa-swatchbook
+  #     Miscellaneous: /miscellaneous.html || fa fa-university
+  #     SEO: /seo.html || fa fa-external-link-square-alt
+  #     i18n: /internationalization.html || fa fa-language
 
-    Third Party Services:
-      default: /third-party-services/ || fa fa-puzzle-piece
-      Math Equations: /math-equations.html || fa fa-square-root-alt
-      Comment Systems: /comments.html || fa fa-comment-alt
-      Post Widgets: /post-widgets.html || fa fa-gift
-      Statistics and Analytics: /statistics-and-analytics.html || fa fa-chart-pie
-      Search Services: /search-services.html || fab fa-algolia
-      Chat Services: /chat-services.html || fa fa-comments
-      External Libraries: /external-libraries.html || fa fa-lightbulb
+  #   Third Party Services:
+  #     default: /third-party-services/ || fa fa-puzzle-piece
+  #     Math Equations: /math-equations.html || fa fa-square-root-alt
+  #     Comment Systems: /comments.html || fa fa-comment-alt
+  #     Post Widgets: /post-widgets.html || fa fa-gift
+  #     Statistics and Analytics: /statistics-and-analytics.html || fa fa-chart-pie
+  #     Search Services: /search-services.html || fab fa-algolia
+  #     Chat Services: /chat-services.html || fa fa-comments
+  #     External Libraries: /external-libraries.html || fa fa-lightbulb
 
-    Tag Plugins:
-      default: /tag-plugins/ || fa fa-rocket
-      Button: /button.html || fa fa-cube
-      Caniuse: /caniuse.html || fa fa-signal
-      Group Pictures: /group-pictures.html || fa fa-images
-      Label: /label.html || fa fa-hat-wizard
-      Link Grid: /link-grid.html || fa fa-grip-vertical
-      Mermaid: /mermaid.html || fa fa-project-diagram
-      Note: /note.html || fa fa-adjust
-      PDF: /pdf.html || fa fa-file-pdf
-      Tabs: /tabs.html || fa fa-columns
+  #   Tag Plugins:
+  #     default: /tag-plugins/ || fa fa-rocket
+  #     Button: /button.html || fa fa-cube
+  #     Caniuse: /caniuse.html || fa fa-signal
+  #     Group Pictures: /group-pictures.html || fa fa-images
+  #     Label: /label.html || fa fa-hat-wizard
+  #     Link Grid: /link-grid.html || fa fa-grip-vertical
+  #     Mermaid: /mermaid.html || fa fa-project-diagram
+  #     Note: /note.html || fa fa-adjust
+  #     PDF: /pdf.html || fa fa-file-pdf
+  #     Tabs: /tabs.html || fa fa-columns
 
-    Advanced Settings:
-      default: /advanced-settings/ || fa fa-cog
-      Vendors: /vendors.html || fa fa-plug
-      Custom Files: /custom-files.html || fa fa-palette
-      Injects: injects.html || fa fa-layer-group
-      Front Matter: /front-matter.html || fa fa-edit
+  #   Advanced Settings:
+  #     default: /advanced-settings/ || fa fa-cog
+  #     Vendors: /vendors.html || fa fa-plug
+  #     Custom Files: /custom-files.html || fa fa-palette
+  #     Injects: injects.html || fa fa-layer-group
+  #     Front Matter: /front-matter.html || fa fa-edit
 
-    Troubleshooting: /troubleshooting.html || fa fa-life-ring
+  #   Troubleshooting: /troubleshooting.html || fa fa-life-ring
 
-  Plugins: /plugins/ || fa fa-flask
+  # Plugins: /plugins/ || fa fa-flask
+  categories: /categories/ || fa fa-th-list
+  tags: /tags/ || fa fa-tags
   archives: /archives/ || fa fa-archive
+  about: /about/ || fa fa-user-circle
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 
@@ -117,10 +120,28 @@ avatar:
   url: /images/logo.svg
   rounded: true
 
+# social:
+#   GitHub: https://github.com/next-theme || fab fa-github
+#   Crowdin: https://crowdin.com/project/hexo-theme-next || fa fa-globe-asia
+#   RSS: /atom.xml || fa fa-rss
+
+# Social Links
+# Usage: `Key: permalink || icon`
+# Key is the link label showing to end users.
+# Value before `||` delimiter is the target permalink.
+# Value after `||` delimiter is the name of Font Awesome icon. If icon (with or without delimiter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/next-theme || fab fa-github
-  Crowdin: https://crowdin.com/project/hexo-theme-next || fa fa-globe-asia
-  RSS: /atom.xml || fa fa-rss
+  GitHub: https://github.com/awesome-wind || fab fa-github
+  E-Mail: mailto:wangzhang.1101@outlook.com || fa fa-envelope
+  #Weibo: https://weibo.com/yourname || weibo
+  #Google: https://plus.google.com/yourname || google
+  #Twitter: https://twitter.com/yourname || twitter
+  #FB Page: https://www.facebook.com/yourname || facebook
+  #VK Group: https://vk.com/yourname || vk
+  #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
+  #YouTube: https://youtube.com/yourname || youtube
+  #Instagram: https://instagram.com/yourname || instagram
+  #Skype: skype:yourname?call|chat || skype
 
 social_icons:
   enable: true
@@ -138,12 +159,44 @@ toc:
 # ============================================================= #
 
 footer:
-  since: 2014
+  # Specify the date when the site was setup. If not defined, current year will be used.
+  #since: 2015
+
+  # Icon between year and copyright info.
   icon:
-    name: fa fa-heart
-    animated: true
+    # Icon name in Font Awesome. See: https://fontawesome.com/v4.7.0/icons/
+    # `heart` is recommended with animation in red (#ff0000).
+    name: user
+    # If you want to animate the icon, set it to true.
+    animated: false
+    # Change the color of icon, using Hex Code.
     color: "#808080"
-  copyright: NexT
+
+  # If not defined, `author` from Hexo `_config.yml` will be used.
+  copyright:
+
+  powered:
+    # Hexo link (Powered by Hexo).
+    enable: false
+    # Version info of Hexo after Hexo link (vX.X.X).
+    version: false
+
+  theme:
+    # Theme & scheme info link (Theme - NexT.scheme).
+    enable: false
+    # Version info of NexT after scheme info (vX.X.X).
+    version: false
+
+  # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
+  beian:
+    enable: false
+    icp:
+    # The digit in the num of gongan beian.
+    gongan_id:
+    # The full num of gongan beian.
+    gongan_num:
+    # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
+    gongan_icon_url:
 
 
 # ============================================================= #
@@ -156,11 +209,14 @@ post_meta:
 
 symbols_count_time:
   separated_meta: true
-  item_text_total: true
+  item_text_post: true
+  item_text_total: false
+  awl: 2
+  wpm: 300
 
 post_edit:
   enable: true
-  url: https://github.com/next-theme/theme-next-docs/edit/master/source/
+  url: https://github.com/awesome-wind/theme-next-docs/edit/main/source/
 
 
 # ============================================================= #
@@ -184,15 +240,49 @@ back2top:
 
 github_banner:
   enable: true
-  permalink: https://github.com/next-theme/hexo-theme-next
+  permalink:  https://github.com/awesome-wind
   title: Fork NexT on GitHub
 
 font:
+  # Use custom fonts families or not.
+  # Depended options: `external` and `family`.
   enable: true
-  host: //fonts.loli.net
+
+  # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
+  host:
+
+  # Font options:
+  # `external: true` will load this font family from `host` above.
+  # `family: Times New Roman`. Without any quotes.
+  # `size: x.x`. Use `em` as unit. Default: 1 (16px)
+
+  # Global font settings used for all elements inside <body>.
+  global:
+    external: true
+    family: Lato
+    size: 0.9
+
+  # Font settings for site title (.site-title).
+  title:
+    external: true
+    family:
+    size:
+
+  # Font settings for headlines (<h1> to <h6>).
+  headings:
+    external: true
+    family:
+
+  # Font settings for posts (.post-body).
+  posts:
+    external: true
+    family:
+
+  # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: Inconsolata
+    family:
+
 
 
 # ============================================================= #
@@ -228,7 +318,7 @@ comments:
   lazyload: true
 
 disqus:
-  enable: true
+  enable: false
   shortname: next-theme
   count: true
 
@@ -249,6 +339,7 @@ local_search:
   enable: true
   trigger: auto
   top_n_per_article: 1
+  preload: true
 
 
 # ============================================================= #
@@ -256,7 +347,7 @@ local_search:
 # ============================================================= #
 
 gitter:
-  enable: true
+  enable: false
   room: hexo-next/community
 
 
